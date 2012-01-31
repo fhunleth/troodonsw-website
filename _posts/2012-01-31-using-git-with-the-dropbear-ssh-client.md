@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Git with the Dropbear SSH Client"
-category: dropbear
+category: Embedded
 tags: []
 ---
 {% include JB/setup %}
