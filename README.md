@@ -2,7 +2,8 @@
 
 # Deploying
 
-Run jekyll-s3 
+    jekyll --safe --no-auto
+    jekyll-s3 
 
 # Attributions
 

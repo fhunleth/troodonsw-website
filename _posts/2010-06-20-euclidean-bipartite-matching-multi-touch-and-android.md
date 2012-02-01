@@ -16,7 +16,12 @@ While reading through the input code on Android for a totally different task, I 
 	// we should do something like the one described at
 	// http://portal.acm.org/citation.cfm?id=997856
 
-If you've ever worked with the Android input system code, you've probably dealt with several files that have become feature dumping grounds, victims of code optimization passes, and that have a lack of comments. Even though that comment was in code that clearly did not impact my work at all, I had to follow the link: "A Near-Linear Constant-Factor Approximation for Euclidean Bipartite Matching?" [1] Wow, this was not a graph theory problem that I had expected in this code. Bipartite matching is just not the kind of code that you would expect in the critical path, but it turns out to be key to making multi-touch sensors work in a sane way. 
+If you've ever worked with the Android input system code, you've
+probably dealt with several files that have become feature dumping
+grounds, victims of code optimization passes, and that have a lack of
+comments. Even though that comment was in code that clearly did not
+impact my work at all, I had to follow the link: "A Near-Linear
+Constant-Factor Approximation for Euclidean Bipartite Matching?" (1) Wow, this was not a graph theory problem that I had expected in this code. Bipartite matching is just not the kind of code that you would expect in the critical path, but it turns out to be key to making multi-touch sensors work in a sane way. 
 
 
 ## The Problem
