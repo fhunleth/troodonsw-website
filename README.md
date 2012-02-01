@@ -1,5 +1,8 @@
 # Troodon SW website
 
+# Deploying
+
+Run jekyll-s3 
 
 # Attributions
 
