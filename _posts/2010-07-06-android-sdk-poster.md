@@ -13,19 +13,8 @@ It seems like there should be a nice overview poster somewhere on the Android SD
 
 
 I've included the android.* packages, classes, and interfaces. I did not include public inner classes and interfaces to save space, but most of those are just for listeners or other helpers. API levels are marked at the class level. It's formatted for 11"x17", but it prints well for me on two letter-sized pages. Here are links to the sources. Feel free to add to or modify the poster.
-
-
-
-
-
-
 	
-  * [Android SDK Poster](http://troodon-software.com/wp-content/uploads/2010/07/AndroidClasses.pdf)
-
+  * [Android SDK Poster](/assets/old/AndroidClasses.pdf)
 	
-  * [Android Poster Visio Source](http://troodon-software.com/wp-content/uploads/2010/07/AndroidClasses.zip)
+  * [Android Poster Visio Source](/assets/old/AndroidClasses.zip)
 
-
-[](http://troodon-software.com/wp-content/uploads/2010/07/AndroidClasses.pdf)
-
-[](http://troodon-software.com/wp-content/uploads/2010/07/AndroidClasses.zip)
