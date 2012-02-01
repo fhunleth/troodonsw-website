@@ -12,3 +12,7 @@ Frank Hunleth has been designing embedded software professionally since the 90s.
 ## The Troodon
 
 The [Troodon](http://en.wikipedia.org/wiki/Troodon) (pronounced tro-a-don) is believed to be one of the smartest dinosaurs based on its brain to body mass ratio. Due to slender stature and strong legs, the Troodon was both fast and nimble.
+
+## Thanks
+
+This website uses [Jekyll](http://jekyllrb.com/) with a lot of help from [Jekyll Bootstrap](http://jekyllbootstrap.com). The theme is a modified version of "tom."
