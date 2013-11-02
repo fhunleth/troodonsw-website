@@ -5,12 +5,21 @@
 Install [rvm](http://beginrescueend.com/rvm/install/)
 
     gem install jekyll
-    gem install jekyll-s3`
+    gem install s3_website
+    s3_website cfg create
+    # fill out s3_website.yml (don't commit)
+    s3_website cfg apply # Shouldn't be necessary any more
 
-# Deploying
+# Building and Deploying
 
-    jekyll --safe --no-auto
-    jekyll-s3 
+    # Setup paths to ruby and jekyll installs
+    rvm use default
+
+    # Test locally
+    jekyll serve --watch
+
+    # Deploy
+    s3_website push
 
 # Attributions
 
