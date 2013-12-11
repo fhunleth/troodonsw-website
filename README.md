@@ -15,7 +15,7 @@ Install [rvm](http://beginrescueend.com/rvm/install/)
     # Setup paths to ruby and jekyll installs
     rvm use default
 
-    # Test locally
+    # Test locally (port 4000)
     jekyll serve --watch
 
     # Deploy
