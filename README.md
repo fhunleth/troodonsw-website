@@ -16,7 +16,8 @@ Install [rvm](http://beginrescueend.com/rvm/install/)
     rvm use default
 
     # Test locally (port 4000)
-    jekyll serve --watch
+    # --safe is needed to generate the google analytics code
+    jekyll serve --safe --watch
 
     # Deploy
     s3_website push
