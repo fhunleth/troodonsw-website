@@ -6,7 +6,9 @@ title: Troodon Software LLC
 
 <div style="margin: 0px 0px 0px 54px"><img src="assets/troodonsw.png"></div>
 
-Troodon Software provides software and systems development and consulting expertise for embedded and real-time systems in consumer electronics, networking, mobile, and government. Capabilities include:
+Troodon Software provides software and systems development and consulting
+expertise for embedded and real-time systems in consumer electronics, networking,
+mobile, and government. Capabilities include:
 
 * Embedded Linux device driver, kernel, and Qt-based application development
 * Video and image processing path design, optimization, and tuning
