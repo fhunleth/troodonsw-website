@@ -16,8 +16,9 @@ git clean -fdx
 # Uncomment to do a dry run
 #DRYRUN=--dry-run
 
-s3cmd sync $DRYRUN -P --reduced-redundancy --delete-removed \
-    --exclude="downloads/*" --exclude=".git/*" --exclude="publish.sh" \
+s3cmd sync $DRYRUN -P -r -v --reduced-redundancy --delete-removed \
+    --no-mime-magic --guess-mime-type \
+    --exclude=".git/*" --exclude="publish.sh" \
     --exclude=".gitignore" --exclude="README.md" \
-    . s3://www.troodon-software.com/
+    ./ s3://www.troodon-software.com/
 
