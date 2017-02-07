@@ -8,6 +8,7 @@ if [ ! -e index.html ]; then
 fi
 
 # Clean up untracked files
+git status
 git clean -ndx
 echo "Ok to cleanup?"
 read UNUSED
